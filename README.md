@@ -1,2 +1,2 @@
 # portfolio
-Caleb Goodnite
+Caleb Goodnite's portfolio of projects.
