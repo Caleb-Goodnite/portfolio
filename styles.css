@@ -1,21 +1,27 @@
-html {
+html{
     scroll-behavior: smooth;
-    font-size: 16px; /* Base size for rem scaling */
 }
 
-/* 🔹 BUTTONS */
+.btncont{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10%;
+}
+
 .neon-button {
     background: none;
-    border: 2px solid rgb(255, 255, 255);
+    border: .1vw solid rgb(255, 255, 255);
     color: rgb(255, 255, 255);
-    padding: 0.8rem 1.6rem; /* Uses rem for better scaling */
-    font-size: 1rem;
+    padding: .8vw 1.6vw;
+    font-size: 1.2vw;
     font-family: 'Share Tech Mono', monospace;
     cursor: pointer;
     text-transform: uppercase;
-    border-radius: 8px; /* Use pixels for small UI elements */
+    border-radius: .5vws;
     box-shadow: 0 0 5px rgb(255, 255, 255), 0 0 10px rgb(255, 255, 255);
     transition: 0.3s;
+    transform: translateY(-5px);
 }
 
 .neon-button:hover {
@@ -23,54 +29,102 @@ html {
     background-color: rgba(78, 78, 78, 0.249);
 }
 
-/* 🔹 HEADERS & TEXT */
-h1, h2, h3, p, ul {
-    font-family: 'Share Tech Mono', 'Courier New', monospace;
-    color: white;
-}
-
-h1 { font-size: 2rem; }
-h2 { font-size: 1.5rem; }
-h3 { font-size: 1.2rem; }
-p { font-size: 1rem; }
-ul { font-size: 1rem; }
-
-/* 🔹 IMAGE */
-.image {
+#particles-js {
+    position: fixed;
     width: 100%;
-    max-width: 250px; /* Prevents images from getting too big */
-    height: auto;
+    height: 100%;
+    top: 0;
+    left: 0;
+    z-index: -1;
+    background: rgb(0, 0, 0);
 }
 
-/* 🔹 FLEX CONTAINERS */
-.container {
+.about{
+    background-color: rgb(83, 172, 255);
+    padding: 0%;
+    margin: 0%;
+}
+.projectbr{
+    background-color: rgb(255, 123, 0);
+    padding: 0%;
+    margin: 0%;
+}
+
+.contact{
+    background: rgb(50, 80, 50);
+    padding: 0%;
+    margin: 0%;
+}
+
+.container{
     display: flex;
     justify-content: space-between;
     align-items: center;
-    flex-wrap: wrap; /* Ensures wrapping on small screens */
-    gap: 1rem;
 }
 
-/* 🔹 BUTTON CONTAINERS */
-.btncont, .contactbtn {
+footer{
+    text-align: center;
+    color: white;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: .8vw;
+}
+
+h1{
+    font-family: 'Share Tech Mono', 'Courier New', Courier, monospace;
+    color: white;
+    text-align: left;
+}
+
+h2{
+    color: white;
+    font-family: 'Share Tech Mono', 'Courier New', Courier, monospace;
+    font-size: 1vw;
+}
+
+h3{
+    font-family: 'Share Tech Mono', 'Courier New', Courier, monospace;
+    color: white;
+    text-align: left;
+    font-size: 1.2vw;
+}
+
+.pheader{
+    font-family: 'Share Tech Mono', 'Courier New', Courier, monospace;
+    color: white;
+    text-align: left;
+    font-size: 2vw;
+}
+.pmheader{
+    color: white;
+    font-family: 'Share Tech Mono',  'Courier New', Courier, monospace;
+    font-size: 1vw;
+}
+
+p{
+    color: rgb(255, 255, 255);
+    font-family:'Courier New', Courier, monospace;
+    font-size: 0.9vw;
+}
+
+ul{
+    font-family: 'Share Tech Mono', 'Courier New', Courier, monospace;
+    color: white;
+    text-align: left;
+    font-size: 1vw;
+}
+
+hr{
+    border-color: rgb(29, 29, 29);
+}
+
+.contactbtn{
     display: flex;
     justify-content: center;
     align-items: center;
-    gap: 1rem;
-    flex-wrap: wrap; /* Prevents buttons from going off-screen */
+    gap: 5%;
 }
 
-/* 🔹 MAKE IT MOBILE-FRIENDLY */
-@media (max-width: 768px) {
-    html { font-size: 14px; } /* Shrinks text slightly on smaller screens */
-
-    .container {
-        flex-direction: column;
-        text-align: center;
-    }
-
-    h1 { font-size: 1.8rem; }
-    h2 { font-size: 1.4rem; }
-    h3 { font-size: 1.1rem; }
-    p { font-size: 0.9rem; }
+.image{
+    width: 15vw;
+    height: 15vw;
 }
