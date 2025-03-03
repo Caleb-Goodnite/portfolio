@@ -2,12 +2,6 @@ html{
     scroll-behavior: smooth;
 }
 
-body{
-    max-height: 200vh;
-    overflow: hidden;
-}
-
-
 .btncont{
     display: flex;
     justify-content: center;
