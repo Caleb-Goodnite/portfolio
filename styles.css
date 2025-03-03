@@ -11,7 +11,7 @@ html{
 
 .neon-button {
     background: none;
-    border: 2px solid rgb(255, 255, 255);
+    border: .5vw solid rgb(255, 255, 255);
     color: rgb(255, 255, 255);
     padding: .8vw 1.6vw;
     font-size: 1.2vw;
