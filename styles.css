@@ -41,8 +41,8 @@ html{
 
 .about{
     background-color: rgb(83, 172, 255);
-    padding: 0%;
-    margin: 0%;
+    padding: 5px;
+    margin: 5px;
 }
 .projectbr{
     background-color: rgb(255, 123, 0);
