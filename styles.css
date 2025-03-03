@@ -66,6 +66,7 @@ footer{
     text-align: center;
     color: white;
     font-family: 'Courier New', Courier, monospace;
+    font-size: .8vw;
 }
 
 h1{
@@ -77,6 +78,7 @@ h1{
 h2{
     color: white;
     font-family: 'Share Tech Mono', 'Courier New', Courier, monospace;
+    font-size: .9vw;
 }
 
 h3{
