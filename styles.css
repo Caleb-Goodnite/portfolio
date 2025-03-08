@@ -41,8 +41,8 @@ html{
 
 .about{
     background-color: rgb(83, 172, 255);
-    padding: 5px;
-    margin: 5px;
+    padding: 0%;
+    margin: 0%;
 }
 .projectbr{
     background-color: rgb(255, 123, 0);
@@ -78,39 +78,39 @@ h1{
 h2{
     color: white;
     font-family: 'Share Tech Mono', 'Courier New', Courier, monospace;
-    font-size: 1vw;
+    font-size: 1.5rem;
 }
 
 h3{
     font-family: 'Share Tech Mono', 'Courier New', Courier, monospace;
     color: white;
     text-align: left;
-    font-size: 1.2vw;
+    font-size: 1.2rem;
 }
 
 .pheader{
-    font-family: 'Share Tech Mono', 'Courier New', Courier, monospace;
+    font-family: 'Jost', 'Courier New', Courier, monospace;
     color: white;
     text-align: left;
-    font-size: 2vw;
+    font-size: 2rem;
 }
 .pmheader{
     color: white;
     font-family: 'Share Tech Mono',  'Courier New', Courier, monospace;
-    font-size: 1vw;
+    font-size: 1rem;
 }
 
 p{
     color: rgb(255, 255, 255);
     font-family:'Courier New', Courier, monospace;
-    font-size: 1.1vw;
+    font-size: 1rem;
 }
 
 ul{
     font-family: 'Share Tech Mono', 'Courier New', Courier, monospace;
     color: white;
     text-align: left;
-    font-size: 1vw;
+    font-size: 1rem;
 }
 
 hr{
@@ -125,6 +125,6 @@ hr{
 }
 
 .image{
-    width: 15vw;
-    height: 15vw;
+    width: 15rem;
+    height: 15rem;
 }
